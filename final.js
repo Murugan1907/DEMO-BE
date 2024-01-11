@@ -5,11 +5,8 @@ const bodyParser = require("body-parser");
 const multer = require('multer');
 const fs = require('fs');
 
-
-// Akshaya demo port Crazy
-
 const app = express();
-const port = 5000;
+const port = 4000;
 
 const upload = multer({ dest: 'Downloads' });
 
